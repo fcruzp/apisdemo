@@ -1,7 +1,9 @@
 npm init -y
 npm install express dotenv
 npm install -D typescript ts-node @types/express @types/node nodemon
+npm install @types/express @types/node
 npx tsc --init
+
 
 git init
 echo "node_modules\ndist\n.env" > .gitignore
@@ -13,3 +15,6 @@ Luego ve a github.com, crea un repositorio nuevo llamado government-api-demo —
 git remote add origin https://github.com/TU_USUARIO/government-api-demo.git
 git branch -M main
 git push -u origin main
+
+
+
