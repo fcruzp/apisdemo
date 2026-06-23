@@ -1,0 +1,37 @@
+[
+  {
+    "id": "001-1234567-8",
+    "fullName": "María Pérez",
+    "amount": 2500,
+    "active": true,
+    "municipality": "Santo Domingo"
+  },
+  {
+    "id": "002-9876543-1",
+    "fullName": "Juan García",
+    "amount": 1800,
+    "active": false,
+    "municipality": "Santiago"
+  },
+  {
+    "id": "003-1122334-5",
+    "fullName": "Carmen Díaz",
+    "amount": 3200,
+    "active": true,
+    "municipality": "Santo Domingo"
+  },
+  {
+    "id": "004-5566778-9",
+    "fullName": "Pedro Martínez",
+    "amount": 1500,
+    "active": true,
+    "municipality": "La Vega"
+  },
+  {
+    "id": "005-9988776-3",
+    "fullName": "Rosa Jiménez",
+    "amount": 2100,
+    "active": false,
+    "municipality": "Santo Domingo"
+  }
+]
