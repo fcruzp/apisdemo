@@ -118,4 +118,29 @@ router.get('/', (req: Request, res: Response): void => {
   }
 });
 
+/**
+ * @openapi
+ * /api/debug/headers:
+ *   get:
+ *     summary: Debug — returns all received request headers
+ *     description: |
+ *       Diagnostic endpoint that echoes back all headers received by the server.
+ *       Used to verify what headers OpenFn is sending — particularly the
+ *       Authorization Bearer token from Credentials.
+ *       Remove in production.
+ *     tags:
+ *       - System
+ *     security:
+ *       - BearerAuth: []
+ *     responses:
+ *       200:
+ *         description: Headers received by the server
+ */
+router.get('/debug/headers', (req: Request, res: Response): void => {
+  res.json({
+    success: true,
+    headers_received: req.headers
+  });
+});
+
 export default router;

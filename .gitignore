@@ -1,3 +1,4 @@
 ﻿node_modules/
 dist/
 .env
+OPENFN_LESSONS.md
